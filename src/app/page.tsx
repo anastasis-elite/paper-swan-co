@@ -11,7 +11,7 @@ export default function HomePage() {
   </p>
 
   <Image
-    src="/paper_swan.png"
+    src="/paper_swan.PNG"
     alt="/paperswanco.png"
     width={140}
     height={140}
