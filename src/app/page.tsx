@@ -6,7 +6,7 @@ export default function HomePage() {
           Boutique Event Styling
         </p>
 
-        <h1 className="mb-5 font-serif text-6xl font-normal md:text-8xl">
+        <h1 className="font-script mb-5 text-6xl md:text-8xl">
           Paper Swan Co.
         </h1>
 
