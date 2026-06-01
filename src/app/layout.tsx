@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Great_Vibes, Inter } from "next/font/google";
 import "./globals.css";
+import FloatingMenu from "@/components/layout/FloatingMenu";
 
 const greatVibes = Great_Vibes({
   subsets: ["latin"],
@@ -25,7 +26,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${greatVibes.variable} ${inter.variable}`}>
-      <body>{children}</body>
+      <body>
+  <FloatingMenu />
+  {children}
+</body>
     </html>
   );
 }
