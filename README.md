@@ -1,166 +1,36 @@
-# Paper Swan Co.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-A modern luxury website for Paper Swan Co. — a boutique creative studio focused on elegant paper artistry, custom designs, and handcrafted experiences.
+## Getting Started
 
----
+First, run the development server:
 
-# Tech Stack
-
-- Next.js 15
-- TypeScript
-- Tailwind CSS
-- Vercel
-- Supabase
-- Resend
-
----
-
-# Brand Direction
-
-Paper Swan Co. combines:
-- minimal luxury
-- geometric elegance
-- handcrafted artistry
-- editorial-inspired layouts
-- soft, intentional user experience
-
-Visual identity is inspired by:
-- origami geometry
-- clean typography
-- negative space
-- monochromatic elegance
-
----
-
-# Project Structure
-
-```txt
-src/
-├── app/
-│   ├── layout.tsx
-│   ├── page.tsx
-│   └── globals.css
-│
-├── components/
-│   ├── ui/
-│   ├── layout/
-│   └── shared/
-│
-├── sections/
-│   ├── hero/
-│   ├── about/
-│   ├── portfolio/
-│   ├── services/
-│   ├── testimonials/
-│   └── contact/
-│
-├── lib/
-│   ├── supabase/
-│   ├── utils/
-│   └── constants/
-│
-├── assets/
-│   ├── images/
-│   ├── logos/
-│   └── icons/
-│
-├── styles/
-│   └── animations/
-│
-└── data/
-    └── content/
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
----
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-# Planned Pages
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Public Pages
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-- Home
-- About
-- Portfolio
-- Services
-- Custom Orders
-- Contact
+## Learn More
 
----
+To learn more about Next.js, take a look at the following resources:
 
-# Homepage Layout
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-1. Hero Section
-2. Featured Work
-3. About the Founders
-4. Services
-5. Portfolio Gallery
-6. Testimonials
-7. Inquiry CTA
-8. Footer
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
----
+## Deploy on Vercel
 
-# Design Language
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## Colors
-
-Primary:
-- Ivory
-- Matte Black
-- Warm Charcoal
-
-Accent:
-- Muted Gold
-
----
-
-## Typography
-
-Heading Fonts:
-- Cormorant Garamond
-- Playfair Display
-
-Body Fonts:
-- Inter
-
----
-
-# Future Features
-
-- Custom order intake system
-- File uploads
-- Proof approval workflow
-- Client portal
-- Automated email responses
-- Gallery CMS
-- Admin dashboard
-- Appointment scheduling
-
----
-
-# Development Notes
-
-## Initial Priorities
-
-1. Site structure
-2. Typography system
-3. Navbar
-4. Hero section
-5. Responsive layout
-6. Portfolio grid
-7. Contact form
-8. Animations
-9. Backend integrations
-
----
-
-# Deployment
-
-Hosted on Vercel.
-
-Connected directly to GitHub for automatic deployments.
-
----
-
-# Status
-
-Currently in active development.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
