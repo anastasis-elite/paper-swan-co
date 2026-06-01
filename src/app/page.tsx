@@ -11,7 +11,7 @@ export default function HomePage() {
   </p>
 
   <Image
-    src="/logo.png"
+    src="/paperswanco.png"
     alt="Paper Swan Co. Logo"
     width={140}
     height={140}
