@@ -41,4 +41,6 @@ export default function RootLayout({
       <body className={`${greatVibes.variable} ${inter.variable}`}>
     </html>
   );
-}
+      ]
+      }
+      
