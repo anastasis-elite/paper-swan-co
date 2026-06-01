@@ -7,8 +7,6 @@ export default function HomePage() {
         </p>
 
         <h1 className="mb-5 font-serif text-6xl font-normal md:text-8xl">
-  Paper Swan Co.
-</h1>
           Paper Swan Co.
         </h1>
 
