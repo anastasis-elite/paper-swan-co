@@ -2,7 +2,7 @@ export default function HomePage() {
   return (
     <main className="min-h-screen bg-[#f8f6f2] text-black">
       <section className="flex min-h-screen flex-col items-center justify-center px-6 text-center">
-        
+
         <h1 className="mb-4 text-5xl font-light tracking-[0.2em]">
           Paper Swan Co.
         </h1>
