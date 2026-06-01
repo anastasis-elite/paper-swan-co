@@ -11,8 +11,8 @@ export default function HomePage() {
   </p>
 
   <Image
-    src="/paperswanco.png"
-    alt="Paper Swan Co. Logo"
+    src="/paper_swan.png"
+    alt="/paperswanco.png"
     width={140}
     height={140}
     className="mb-6 object-contain"
