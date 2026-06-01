@@ -1,4 +1,5 @@
 import Link from "next/link";
+import GeometricButton from "@/components/ui/GeometricButton";
 
 export default function HomePage() {
   return (
@@ -18,19 +19,15 @@ export default function HomePage() {
         </p>
 
         <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-  <Link
+  <GeometricButton
     href="/portfolio"
-    className="border border-black px-8 py-3 text-xs uppercase tracking-[0.2em] transition hover:bg-black hover:text-white"
-  >
-    View Portfolio
-  </Link>
+    text="View Portfolio"
+  />
 
-  <Link
+  <GeometricButton
     href="/book-event"
-    className="border border-neutral-300 px-8 py-3 text-xs uppercase tracking-[0.2em] text-neutral-700 transition hover:border-black hover:text-black"
-  >
-    Book Your Event
-  </Link>
+    text="Book Your Event"
+  />
 </div>
       </section>
 
