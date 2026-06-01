@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-[#f8f6f2] text-black">
@@ -16,14 +18,20 @@ export default function HomePage() {
         </p>
 
         <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-          <button className="border border-black px-8 py-3 text-xs uppercase tracking-[0.2em] transition hover:bg-black hover:text-white">
-            View Portfolio
-          </button>
+  <Link
+    href="/portfolio"
+    className="border border-black px-8 py-3 text-xs uppercase tracking-[0.2em] transition hover:bg-black hover:text-white"
+  >
+    View Portfolio
+  </Link>
 
-          <button className="border border-neutral-300 px-8 py-3 text-xs uppercase tracking-[0.2em] text-neutral-700 transition hover:border-black hover:text-black">
-            Book Your Event
-          </button>
-        </div>
+  <Link
+    href="/book-event"
+    className="border border-neutral-300 px-8 py-3 text-xs uppercase tracking-[0.2em] text-neutral-700 transition hover:border-black hover:text-black"
+  >
+    Book Your Event
+  </Link>
+</div>
       </section>
 
       <section className="px-6 py-24">
