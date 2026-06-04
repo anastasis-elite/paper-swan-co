@@ -3,8 +3,8 @@ const portfolioItems = [
   "Grazing Boards",
   "Baby Showers",
   "Birthday Parties",
+  "Banners",
   "Custom Decor",
-  "Styled Tables",
 ]
 
 export default function PortfolioPage() {
